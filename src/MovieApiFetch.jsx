@@ -88,7 +88,7 @@ const MovieApiFetch = () => {
     const LoadApi = async () => {
       try {
         // Construct API URL with search query and type
-        const url = `http://www.omdbapi.com/?s=girl&type=${movieType}&apikey=ffc813d3`;
+        const url = `https://www.omdbapi.com/?s=girl&type=${movieType}&apikey=ffc813d3`;
         const response = await fetch(url);
         const data = await response.json();
         console.log("API Response:", data);
