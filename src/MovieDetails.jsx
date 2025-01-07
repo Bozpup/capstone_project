@@ -12,7 +12,7 @@ const MovieDetails = () => {
       try {
         // Fetch detailed movie information
         const response = await fetch(
-          `http://www.omdbapi.com/?i=${id}&apikey=ffc813d3`
+          `https://www.omdbapi.com/?i=${id}&apikey=ffc813d3`
         );
         const data = await response.json();
 
