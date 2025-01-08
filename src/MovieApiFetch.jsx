@@ -245,7 +245,7 @@ const MovieApiFetch = () => {
     const LoadApi = async () => {
       try {
         setLoading(true);
-        const url = `http://www.omdbapi.com/?s=${searchQuery}&type=${movieType}&page=${currentPage}&apikey=ffc813d3`;
+        const url = `https://www.omdbapi.com/?s=${searchQuery}&type=${movieType}&page=${currentPage}&apikey=ffc813d3`;
 
         const response = await fetch(url);
         const data = await response.json();
