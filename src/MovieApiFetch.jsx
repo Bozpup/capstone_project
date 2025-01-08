@@ -314,7 +314,7 @@ const MovieApiFetch = () => {
             value={searchQuery}
             onChange={handleSearch}
             placeholder="Search movies..."
-            className="xs:w-[170px] xs:text-xs xs:pl-[29px] xs:h-[20px] xs:px-1 xs:py-1 sm:-mt-[230px] md:mt-[200px] lg:mt-[500px] pl-[70px] text-2xl py-[30px] mt-[990px] ml-1 rounded-md bg-white bg-opacity-80 border border-gray-300 font-georgia shadow-lg placeholder-black italic font-bold sm:w-[330px] h-[41px] xl:mt-[900px]"
+            className="xs:mt-[370px] xs:w-[170px] xs:text-xs xs:pl-[29px] xs:h-[20px] xs:mb-[600px] xs:px-1 xs:py-1 sm:-mt-[230px] md:mt-[200px] lg:mt-[500px] pl-[70px] text-2xl py-[30px] mt-[990px] ml-1 rounded-md bg-white bg-opacity-80 border border-gray-300 font-georgia shadow-lg placeholder-black italic font-bold sm:w-[330px] h-[41px] xl:mt-[900px]"
           />
         </div>
       </div>
