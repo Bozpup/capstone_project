@@ -377,7 +377,7 @@ const MovieApiFetch = () => {
       </div>
       {/* Pagination */}
       {totalResults > 10 && (
-        <div className="flex justify-center mt-6 space-x-2">
+        <div className="flex flex-wrap justify-center mt-6 gap-2">
           {Array.from(
             { length: Math.ceil(totalResults / 10) },
             (_, index) => index + 1
